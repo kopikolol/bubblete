@@ -8,9 +8,10 @@ export default function Navbar() {
     return (
         <div className="topnav">
             
-            <a href="/about">About</a>
+            
             {/* <a href="/Todo">ToDos</a> */}
             <a href="/profile">Contact</a>
+            <a href="/about">Orders</a>
             <a href="/news">Products</a>
             <a href="/home">Home</a>
             <div className='active'>

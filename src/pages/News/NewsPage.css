@@ -10,7 +10,7 @@
     height: 800px;
     overflow: auto;
     
-    /* justify-items: center; */
+    /* justify-items: right; */
     
     
 }
@@ -55,12 +55,14 @@ button4{
 
 ul {
     float: right;
+    clear: right;
     font-weight: bold;
     font-size: 20px;
     padding: 10px;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.2);
-    margin-right: 20px;
     margin-top: 0;
+    
+
   }
 button3{
     background: grey;
@@ -72,11 +74,13 @@ button3{
     border-width: 2px;
     border-style: solid;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    
 
 }
 
 h4{
     float:right;
+    clear: right;
 }
 
 select{
@@ -98,6 +102,7 @@ select{
     float:right;
     display: flex;
     /* margin-left: -20px; */
-    margin-top: -10px;
-    margin-right: 10px;
+    /* margin-top: -10px; */
+    margin-right: 20px;
+    clear: right;
 }
